@@ -8,6 +8,7 @@ body {
     /* good practice */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 input,
@@ -237,9 +238,141 @@ a:active {
     margin-top: 16px;
 }
 
-.cards-2-box div {
+.cards-2-box>div {
     flex: 1;
-    height: 310px;
-    background-color: dimgray;
+    height: 280px;
+    background-image: url(images/radiant-bluexpink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px;
+    padding: 22px;
+
+}
+
+.h3-P-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.h3-P-wrapper h3 {
+    font-size: 22px;
+}
+
+.h3-P-wrapper p {
+    font-size: 14px;
+    color: rgb(220, 220, 220);
+}
+
+.faq-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 44px;
+
+}
+
+.faq-button-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 11px;
+    list-style: none;
+}
+
+.faq-button-wrapper button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    height: 84px;
+    color: white;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.bottom-searchbar-wrapper h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.bottom-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.bottom-input-container input {
+    width: 562px;
+    height: 56px;
+    padding-left: 16px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.428);
+    border: 1px solid rgba(128, 128, 128, 0.927);
+    border-radius: 5px;
+    color: white;
+}
+
+.bottom-input-container input::placeholder {
+    color: rgb(203, 192, 192);
+}
+
+.bottom-input-container input:focus {
+    outline: 1px solid white;
+}
+
+.bottom-input-container button {
+    width: 214px;
+    height: 56px;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 27px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.bottom-input-container button:active {
+    background-color: green;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 56px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 132px;
+    list-style: none;
+    align-items: center;
+    margin-top: 36px;
+
+}
+
+.footer-grid-cells {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 12px 0 0 12px;
+}
+
+.footer span,
+a {
+    color: rgb(170, 170, 170);
+}
+
+.footer-grid-cells a {
+    font-size: 14px;
 }
