@@ -5,7 +5,7 @@
 }
 
 body {
-    /* good practice */
+    /* good practice - avoid using them directly into Universal selector */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
