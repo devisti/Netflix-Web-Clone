@@ -382,6 +382,13 @@ select:focus {
     font-size: 14px;
 }
 
+.disclaimer {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 100px;
+}
+
 .credit {
     color: #00ffff;
     text-align: center;
